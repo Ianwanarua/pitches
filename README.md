@@ -52,3 +52,9 @@ Open the application on your browser `127.0.0.1:5000`.
 ## Known Bugs
 
 There were no bugs. If found any please contact [ian.wanarua@student.moringaschool.com](ian.wanarua@student.moringaschool.com)
+
+## Support and Further contact details
+
+* For queries you can contact me through
+
+ian.wanarua@student.moringaschool.com
