@@ -20,3 +20,21 @@ This is a python-flask application that allows users to post one minute pitches 
 ## Requirements
 
 This program requires python3.+ installed, so as to run. A guide on how to install python on various platforms can be found [here](https://www.python.org/)
+
+## Setup/Installation
+
+To get the code..
+
+1. Cloning the repository:
+  ```bash
+  https://github.com/Ianwanarua/pitches.git
+  ```
+2. Move to the folder and install requirements
+  ```bash
+  cd pitches
+  pip install -r requirements.txt
+  ```
+3. Exporting Configurations
+  ```bash
+  export SQLALCHEMY_DATABASE_URI=postgresql+psycopg2://{User Name}:{password}@localhost/{database name}
+  ```
