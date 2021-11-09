@@ -4,7 +4,7 @@ class Config:
     """
     General configuration class
     """
-    SECRET_KEY = 'SECRET_KEY'
+    SECRET_KEY = 'leA6Y0wfVb7KIoblYzyl7Q'
     
     UPLOADED_PHOTOS_DEST ='app/static/photos'
     
