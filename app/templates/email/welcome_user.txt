@@ -1,0 +1,4 @@
+Hello {{user.username}},
+Welcome to Uno Minuto Pitches.
+Thank you for signing up with us.We hope your going to have fun inside our application.
+Please enjoy the pitches and have some fun creating new ones.

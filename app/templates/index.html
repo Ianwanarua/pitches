@@ -1,0 +1,113 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div class="container mt-5">
+    <div class="">
+        <div class="col-md-12 lh-lg text-center" style="align-items:center;" >
+            <h1 class="text-info">PITCHES</h1>
+            <h5 class="fw-bolder">In life, you only have 60 seconds to impress someone. 1 minute can make or break you.?</h5>
+            <p> How do we make sure that you use your 1 minute to actually say something meaningful?
+            </p>
+            <p>Worry no more because Uno minuto gatch your back to cover up for you.</p>
+            <h6>Be it an advertisement pitch, pickupline to your loved one, sales or intrview pith. We have you covered,</h6>
+            <h5>First Sign up below here, Create your pitch under 60 seconds and FINALLY View it. </h5>
+            
+        </div>
+    </div>
+
+    <!-- Services -->
+    <div class="row mt-5">
+        <hr>
+        <div class="col-md-12">
+            <h1 class="text-info text-center">SERVICES WE OFFER</h1>
+        </div>
+        <div class="col-md-4 mt-4">
+            <div class="card h-100" style="width: 18rem;">
+                <img src="../static/images/image.jpg" class="card-img-top" alt="..." height="300px">
+                <div class="card-body">
+                    <h5 class="card-title">Sign In</h5>
+                    <p class="card-text">
+                      Sign up and have a chance to make memorable moments in here by creating your favorite pitches.
+                    </p>
+                    <a href="{{url_for('auth.login')}}" class="btn btn-outline-dark">Sign in</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mt-4">
+            <div class="card h-100" style="width: 18rem;">
+                <img src="../static/images/image3.jpg" class="card-img-top" alt="..." height="300px">
+                <div class="card-body">
+                    <h5 class="card-title">Create A Pitch</h5>
+                    <p class="card-text">Test your creativity by creating pitches and publishing them on our page.
+                    </p>
+                    <a href="{{url_for('main.addpitches')}}" class="btn btn-outline-info">Create</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-md-4 mt-4">
+            <div class="card h-100" style="width: 18rem;">
+                <img src="../static/images/image2.jpg" class="card-img-top" alt="..." height="300px">
+                <div class="card-body">
+                    <h5 class="card-title">View Pitches</h5>
+                    <p class="card-text">
+                      View your pitches and see the reaction of others as they like and dislike and also commenting.
+                    </p>
+                    <a href="{{url_for('main.pitches')}}" class="btn btn-outline-dark">View Pitches</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <!-- Footer -->
+    <footer class="bg-dark text-center text-white">
+        <!-- Grid container -->
+        <div class="container p-4 pb-0">
+          <!-- Section: Social media -->
+          <section class="mb-4">
+            <!-- Facebook -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+      
+            <!-- Twitter -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+              ><i class="fab fa-twitter"></i
+            ></a>
+      
+            <!-- Google -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+              ><i class="fab fa-google"></i
+            ></a>
+      
+            <!-- Instagram -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+              ><i class="fab fa-instagram"></i
+            ></a>
+      
+            <!-- Linkedin -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+      
+            <!-- Github -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+              ><i class="fab fa-github"></i
+            ></a>
+          </section>
+          <!-- Section: Social media -->
+        </div>
+        <!-- Grid container -->
+      
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+          © 2021 Copyright:
+          Un Minuto Pitch
+        </div>
+        <!-- Copyright -->
+      </footer>
+
+
+
+{% endblock %}
