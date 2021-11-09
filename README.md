@@ -47,3 +47,8 @@ To get the code..
   python3.8 manage.py test
   ```
 Open the application on your browser `127.0.0.1:5000`.
+
+
+## Known Bugs
+
+There were no bugs. If found any please contact [ian.wanarua@student.moringaschool.com](ian.wanarua@student.moringaschool.com)
