@@ -58,3 +58,9 @@ There were no bugs. If found any please contact [ian.wanarua@student.moringascho
 * For queries you can contact me through
 
 ian.wanarua@student.moringaschool.com
+
+## License
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
+Copyright © 2021  [Ian wanarua](https://github.com/ianwanarua)
