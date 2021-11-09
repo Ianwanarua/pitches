@@ -20,7 +20,7 @@ class ProdConfig(Config):
     """
     Production configuration class
     """
-    # SQLALCHEMY_DATABASE_URI = 'postgresql://pykonncljnjurg:ca9419f42cf10926d49c52fd2a8e7b5e3c63b3d4d9b419d32a77c3b4d04c801c@ec2-18-214-140-149.compute-1.amazonaws.com:5432/dekiu1uqvid4ta?sslmode=require'
+    SQLALCHEMY_DATABASE_URI = 'postgres://gubechukwawatr:eb353c3409ff3ba2ae1cfb3d392293ea718489760f40a543efaa8c8366c0503d@ec2-44-199-83-229.compute-1.amazonaws.com:5432/dfblrv4b6i69lk'
 
 
 class TestConfig(Config):
